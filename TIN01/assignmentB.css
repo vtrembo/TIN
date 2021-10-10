@@ -1,0 +1,25 @@
+a {
+    text-decoration: none;
+}
+
+p {
+    
+    font-style: normal;
+    font-size: larger;
+}
+h1, h2, h3{
+    font-style: italic;
+    font-size: 2vw;
+}
+
+table{
+    border: 2px solid #252525;
+}
+
+td{
+    border: 1px dotted #252525;
+}
+
+ul{
+    list-style-type: kannada;
+}

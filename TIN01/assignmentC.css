@@ -1,0 +1,15 @@
+p, h2{
+    clear: both;
+}
+
+#book1{
+    float:none;
+}
+
+#book2{
+    float:left;
+}
+
+#book3{
+    float:right;
+}
