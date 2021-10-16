@@ -1,0 +1,14 @@
+form{
+    font-size: 150%;
+    font-style: italic;
+}
+#passwordText
+{
+    color:red;
+}
+#usernameText{
+    color:red;
+}
+.defaultField{
+    color: darkblue;
+}

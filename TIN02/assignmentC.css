@@ -1,0 +1,31 @@
+body {
+    background: url("bookshelf.jpg");
+    background-attachment: fixed;
+}
+#container{
+    display: flex;
+    justify-content: center;
+}
+#content{
+    width: 55%;
+    background-color: #c1c1c1;
+}
+#banner{
+    background: url("banner.jpg") no-repeat;
+    height:  395px;
+    border: 3px solid #434343;
+}
+article h2{
+    font-size: xx-large;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+article p{
+    width: 90%;
+    border: 3px dotted #434343;
+    background-color:#a37c5d;
+    margin-left: 30px;
+}
+article a:hover{
+    color: #bd2d2d;
+}
