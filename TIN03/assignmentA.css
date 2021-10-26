@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+.mainWrapper{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 25px;
+    font-family: 'Open Sans', serif;
+}
+
+header img{
+    width: 80%;
+    border: 2px solid #434343;
+    border-radius: 20px;
+    transform: rotate(12deg);
+    box-shadow: 10px 5px #434343;
+}
+
+.contentWrapper{
+    display: grid;
+    grid-gap: 0;
+}
+
+.galleryWrapper{
+    grid-row-start: 3;
+}
+
+.galleryWrapper figcaption{
+    font-family: 'PT Serif', serif;
+}
+
+.galleryWrapper img{
+    height: 23vh;
+}
+
+.articleWrapper{
+    grid-row-start: 2;
+    font-family: 'PT Serif', serif;
+}
+
+#articleImgRight{
+    margin: 12px;
+    height: 14vh;
+    float: right;
+}
+
+#articleImgLeft{
+    margin: 12px;
+    height: 14vh;
+    float: left;
+}
+
+aside{
+    margin: 5px;
+    font-size: 2.5vh;
+    float: left;
+    color: #434343;
+    font-family: 'Open Sans', serif;
+}
+
+blockquote{
+    margin: 2.5px;
+}
+
+#articleQuoteRight{
+    float: right;
+}
+
+#articleQuoteLeft{
+    float: left;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-family: 'Open Sans', serif;
+    font-size: 2.5vh;
+    color: #434343;
+    background-color: #c1c1c1;
+}
+
+@media only screen and (min-device-width: 800px) {
+    .gridColumnWrapper{
+        column-count: auto;
+        column-gap: 35px;
+        column-width: 280px;
+    }
+    .galleryWrapper{
+        grid-row-start: 2;
+    }
+}
